@@ -3,6 +3,7 @@ import { LineChart } from '../../components/charts'
 import { GridContainer, HomeContainerStyled } from './home.styled'
 import { DefaultTheme } from '../../styles/theme/Default'
 import { NavBar } from '../../components/navBar'
+import { Humidity } from '../../components/humidity'
 
 const { colors } = DefaultTheme
 
@@ -35,7 +36,8 @@ export function Home() {
           />
         </CardWrapper>
         <CardWrapper>
-          <h2>Teste</h2>
+          <h3>Umidade da sala</h3>
+          <Humidity porcent={30} />
         </CardWrapper>
         <CardWrapper>
           <h2>Teste</h2>
