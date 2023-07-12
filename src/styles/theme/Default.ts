@@ -23,6 +23,7 @@ export const DefaultTheme = {
     purple: '#7d57cc',
 
     blue: '#3dd8e7',
+    blue_dark: '#0082af',
 
     red: '#F03847',
     red_dark: '#7A1921',
