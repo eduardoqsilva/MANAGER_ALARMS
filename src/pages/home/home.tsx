@@ -4,6 +4,7 @@ import { GridContainer, HomeContainerStyled } from './home.styled'
 import { DefaultTheme } from '../../styles/theme/Default'
 import { NavBar } from '../../components/navBar'
 import { Humidity } from '../../components/humidity'
+import { Battery } from '../../components/battery'
 
 const { colors } = DefaultTheme
 
@@ -40,7 +41,8 @@ export function Home() {
           <Humidity porcent={30} />
         </CardWrapper>
         <CardWrapper>
-          <h2>Teste</h2>
+          <h3>Bateria</h3>
+          <Battery porcent={72} volt={`${45}V`} />
         </CardWrapper>
         <CardWrapper>
           <h2>Teste</h2>
