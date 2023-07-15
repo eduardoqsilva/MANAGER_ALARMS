@@ -23,7 +23,7 @@ export const ContentWrapperStyled = styled.div`
     align-items: center;
     gap: 0.4rem;
 
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
   }
 `
@@ -40,7 +40,7 @@ export const WrapperWaveStyled = styled.div<WaveType>`
   aspect-ratio: 1/1;
 
   border-radius: 50%;
-  border: 1px solid ${colors.card_color3};
+  border: 8px solid ${colors.card_color3};
   background-color: ${colors.card_color3};
   overflow: hidden;
 
@@ -48,9 +48,9 @@ export const WrapperWaveStyled = styled.div<WaveType>`
   align-items: end;
   justify-content: center;
 
-  -webkit-box-shadow: inset 0px 0px 49px 5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: inset 0px 0px 49px 5px rgba(0, 0, 0, 0.75);
-  box-shadow: inset 0px 0px 49px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 0px 0px 60px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 60px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 60px 5px rgba(0, 0, 0, 0.75);
 
   & .porcent {
     width: 100%;
