@@ -5,6 +5,7 @@ import { DefaultTheme } from '../../styles/theme/Default'
 import { NavBar } from '../../components/navBar'
 import { Humidity } from '../../components/humidity'
 import { Battery } from '../../components/battery'
+import { LampIndicator } from '../../components/lampIndicator'
 
 const { colors } = DefaultTheme
 
@@ -38,14 +39,15 @@ export function Home() {
         </CardWrapper>
         <CardWrapper>
           <h3>Umidade da sala</h3>
-          <Humidity porcent={30} />
+          <Humidity porcent={72} />
         </CardWrapper>
         <CardWrapper>
           <h3>Bateria</h3>
-          <Battery porcent={62} volt={`${45}V`} />
+          <Battery porcent={84} volt={`${45}V`} />
         </CardWrapper>
         <CardWrapper>
           <h3>Indicador de AC</h3>
+          <LampIndicator OnOff={true} />
         </CardWrapper>
         <CardWrapper>
           <h3>Indicador de GMG</h3>
