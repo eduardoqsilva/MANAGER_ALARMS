@@ -42,13 +42,13 @@ export function Home() {
         </CardWrapper>
         <CardWrapper>
           <h3>Bateria</h3>
-          <Battery porcent={72} volt={`${45}V`} />
+          <Battery porcent={62} volt={`${45}V`} />
         </CardWrapper>
         <CardWrapper>
-          <h2>Teste</h2>
+          <h3>Indicador de AC</h3>
         </CardWrapper>
         <CardWrapper>
-          <h2>Teste</h2>
+          <h3>Indicador de GMG</h3>
         </CardWrapper>
       </GridContainer>
     </HomeContainerStyled>
