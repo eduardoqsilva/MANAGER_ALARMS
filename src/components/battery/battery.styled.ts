@@ -53,7 +53,7 @@ export const BatteryContantStyled = styled.div<BatteryContantType>`
     transform: translateX(-50%);
   }
 
-  & .textPorcent {
+  & .voltage {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -73,7 +73,7 @@ export const BatteryContantStyled = styled.div<BatteryContantType>`
     background-color: ${colors.card_color1};
     border-radius: 10px;
 
-    & .voltage {
+    & .textPorcent {
       position: absolute;
       bottom: ${(props) => props.porcent}%;
       left: 110%;

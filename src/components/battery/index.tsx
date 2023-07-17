@@ -10,13 +10,13 @@ export function Battery({ porcent = 50, volt }: BatteryType) {
   return (
     <BatteryWrapperStyled>
       <BatteryContantStyled porcent={porcent}>
-        <div className="textPorcent">
-          <span>{porcent}%</span>
+        <div className="voltage">
+          <span>{volt}</span>
         </div>
         <div className="border">
-          <div className="voltage">
+          <div className="textPorcent">
             <Lightning size={20} weight="regular" />
-            <span>{volt}</span>
+            <span>{porcent}%</span>
           </div>
           <div className="background">
             <div className="porcent">
