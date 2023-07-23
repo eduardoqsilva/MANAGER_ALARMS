@@ -6,6 +6,7 @@ import { NavBar } from '../../components/navBar'
 import { Humidity } from '../../components/humidity'
 import { Battery } from '../../components/battery'
 import { LampIndicator } from '../../components/lampIndicator'
+import { Generator } from '../../components/generatorIndicate'
 
 const { colors } = DefaultTheme
 
@@ -51,6 +52,7 @@ export function Home() {
         </CardWrapper>
         <CardWrapper>
           <h3>Indicador de GMG</h3>
+          <Generator status="On" />
         </CardWrapper>
       </GridContainer>
     </HomeContainerStyled>
