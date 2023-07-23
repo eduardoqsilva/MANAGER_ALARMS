@@ -1,7 +1,7 @@
 import { css, keyframes, styled } from 'styled-components'
 import { DefaultTheme } from '../../styles/theme/Default'
 
-const { colors, border } = DefaultTheme
+const { colors, border, fontSize } = DefaultTheme
 
 const Warning = keyframes`
   50% {
@@ -26,6 +26,7 @@ export const CardStyled = styled.div<CardType>`
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  overflow: hidden;
 
   box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.18);
 
@@ -36,4 +37,11 @@ export const CardStyled = styled.div<CardType>`
           border: ${border.borderWidth + 'px'} solid ${colors.red};
         `
       : ''}
+
+  & > h3 {
+    font-size: ${fontSize.M};
+    letter-spacing: 0.1rem;
+    position: relative;
+    z-index: 5;
+  }
 `

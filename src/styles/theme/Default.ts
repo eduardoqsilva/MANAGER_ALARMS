@@ -23,10 +23,12 @@ export const DefaultTheme = {
     purple: '#7d57cc',
 
     blue: '#3dd8e7',
+    blue_dark: '#0284c7',
 
     red: '#F03847',
     red_dark: '#7A1921',
 
+    green: '#22c55e',
     green_light: '#8FF7A7',
 
     yellow: '#e8ba01',
